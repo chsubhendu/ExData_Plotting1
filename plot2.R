@@ -1,5 +1,5 @@
 ## THis function reads the House hold power consumption data and
-## generates the histogram plot for Global Active Power consumption
+## generates the Global Active Power consumption line chart over 3 days
 plot2 <- function () {
     
     power_data <- read.table("household_power_consumption.txt",header = TRUE, sep = ";",
